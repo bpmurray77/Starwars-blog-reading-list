@@ -3,9 +3,9 @@ import { Context } from "../store/appContext";
 
 const Planets = () => {
     const { store, actions } = useContext(Context);
-    return{
-        <div></div>
-    };
+    return(
+        <div>Test</div>
+    );
 };
 
 export {Planets};
